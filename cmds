@@ -1,0 +1,190 @@
+    1  ls
+    2  mkdir dev
+    3  cd dev
+    4  mkdir workspace
+    5  ls
+    6  cd ..
+    7  cd c
+    8  cd /c
+    9  mkdir dev
+   10  cd dev
+   11  mkdir workspace
+   12  cd workspace/
+   13  ls
+   14  mkdir myrepo
+   15  ls
+   16  cd myrepo/
+   17  git init
+   18  ls
+   19  touch script.py
+   20  ls
+   21  nano script.py 
+   22  git push script.py
+   23  git commit
+   24  ls
+   25  ls -l
+   26  nano script.py 
+   27  git add 
+   28  git add script.py
+   29  git commit
+   30  git commit -m "v.0_hw"
+   31  git push
+   32  ls
+   33  nano script.py 
+   34  git status
+   35  git commit -m "v.1_hw"
+   36  git log
+   37  git add
+   38  git add script.py 
+   39  git commit
+   40  git commit -m "v.1_hw"
+   41  git log
+   42  ls
+   43  cd dev
+   44  ls
+   45  cd workspace/
+   46  ls
+   47  ls
+   48  ls -l
+   49  cd ..
+   50  cd ..
+   51  cd ..
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd /dev/
+   56  ls
+   57  cd
+   58  cd c:
+   59  cd dev
+   60  cd workspace/
+   61  cd myrepo/
+   62  ls
+   63  git log
+   64  nano script.py 
+   65  git add script.py 
+   66  git commit -m une troisième version
+   67  git commit -m "une troisième version"
+   68  git log
+   69  ./script.py
+   70  nano
+   71  nano script.py 
+   72  git add script.py 
+   73  git commit -m "la quatrième"
+   74  git log
+   75  ./script.py
+   76  git add script.py 
+   77  git commit -m "réctification et amélioration"
+   78  git log
+   79  git revert 95d62877cdffcdaf43c0803cac077ad293294cba
+   80  git checkout 95d62877cdffcdaf43c0803cac077ad293294cba
+   81  git checkout master
+   82  git commit -m "fixed conflict"
+   83  git merge
+   84  git add script.py 
+   85  git commit -m "fixed conflict"
+   86  git log
+   87  git checkout 95d62877cdffcdaf43c0803cac077ad293294cba
+   88  git checkout master
+   89  git commit -m "peut-être une erreur??!"
+   90  git add script.py 
+   91  git commit -m "peut-être une erreur??!"
+   92  git log
+   93  git add script.py 
+   94  git commit -m "l'erreur à été maitrisée, je répète git add script.py "
+   95  git log
+   96  git branch idea
+   97  git log
+   98  git checkout idea
+   99  git add script.py 
+  100  git commit -m "Le petit questionnaire"
+  101  git log
+  102  git add script.py script.py 
+  103  git commit -m "Le moyen questionnaire"
+  104  git log
+  105  git add script.py 
+  106  git commit -m "Le questionnaire final"
+  107  git show --pretty[=<format>]
+  108  git show
+  109  git log --graph
+  110  git log --graph --decorate --oneline
+  111  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  112  git merge
+  113  checkout master
+  114  git checkout master
+  115  git merge
+  116  git merge idea
+  117  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  118  nano script.py 
+  119  cd ..
+  120  mkdir firstonlinerepo
+  121  cd firstonlinerepo/
+  122  echo "# letest" >> README.md
+  123  git init
+  124  git add README.md
+  125  git commit -m "first commit"
+  126  git remote add origin https://github.com/le-goat/letest.git
+  127  git push -u origin master
+  128  cd c:
+  129  ls
+  130  cd dev/
+  131  ls
+  132  cd workspace/
+  133  ls
+  134  cd examen/
+  135  touch script.py
+  136  ls
+  137  nano script.py 
+  138  add script.py 
+  139  git add script.py 
+  140  git commit -m "Ajout de la fonction bonjour monde"
+  141  git log
+  142  git add script.py 
+  143  git commit -m "Affichage de la fonction 2"
+  144  git add script.py 
+  145  git commit -m "Ajout de la variable compteur"
+  146  git log
+  147  git add script.py 
+  148  git commit -m "Affichage de la variable compteur"
+  149  git log
+  150  git add script.py 
+  151  git commit -m "Correction d'une erreur dans la fonction d'affichage de compteur"
+  152  git add script.py 
+  153  git commit -m "Affichage de la fin du programme"
+  154  git push script.py
+  155  git push script.p
+  156  git push
+  157  git branch develop
+  158  git checkout develop 
+  159  git push
+  160  git checkout master
+  161  git push
+  162  git push
+  163  git log
+  164  git checkout develop 
+  165  git add script.py 
+  166  git commit -m "Le premier commentaire"
+  167  git add script.py 
+  168  git commit -m "Ajout de la fonction exemple"
+  169  git add script.py 
+  170  git commit -m "Ajout de la fonction somme"
+  171  git log
+  172  git push
+  173  git merge develop 
+  174  git checkout master 
+  175  git merge develop 
+  176  git tag -a V1.0 -m "la pratique je maitrise"
+  177  git tag
+  178  git push
+  179  git log
+  180  git checkout 299bc9a0366c5daf940e4aef85f133b25d92498b
+  181  git branch hotfix
+  182  git checkout hotfix 
+  183  git add script.py 
+  184  git commit -m "modification de la fonction 1 en hello"
+  185  git push
+  186  git checkout master
+  187  git log --all --decorate --oneline --graph
+  188  git push
+  189  touch cmds
+  190  history > cmds
